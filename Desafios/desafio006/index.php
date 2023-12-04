@@ -31,24 +31,6 @@
         <?php 
             $quociente = intdiv($divisor, $dividendo) ?? 0;
             $resto = ($divisor % $dividendo) ?? 0;
-
-
-            // echo 
-            // "
-            // <div class=\"container\">
-            //     <div class=\"left\">
-            //         <div class=\"d1 d\">$divisor</div>
-            //         <div class=\"d2 d\">$resto</div>
-            //     </div>
-        
-            //     <div class=\"right\">
-            //         <div class=\"d3 d\">$dividendo</div>
-            //         <div class=\"d4 d\">$quociente</div>
-            //     </div>
-            // </div>
-            
-            // ";
-
             
             ?>
             <table>
