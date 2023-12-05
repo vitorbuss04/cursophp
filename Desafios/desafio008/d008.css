@@ -22,7 +22,6 @@ main {
     justify-content: center;
     flex-direction: column;
 
-
 }
 
 h2 {
@@ -44,7 +43,7 @@ label{
     border-radius: 5px;
 }
 
-section#resultado {
+section {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
@@ -61,67 +60,4 @@ section#resultado {
 
 p {
     font-size: 0.9em;
-}
-
-div.container {
-    display: flex;
-}
-
-div.d {
-    height: 50px;
-    width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.d1 {
-    border-right: 1px solid black;
-}
-
-.d2 {
-    border-right: 1px solid black;
-    text-decoration: underline;
-}
-
-.d3 {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.d4 {
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-}
-
-table, tr, td {
-    border-collapse: collapse;
-}
-
-td {
-    width: 20vw;
-    height: 50px;
-    text-align: center;
-    font-size: 2em;
-}
-
-.td1 {
-    border-right: 2px solid black;
-}
-
-.td2 {
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.td3 {
-    border-right: 2px solid black;
-    text-decoration: underline;
-}
-
-.td4 {
-    border-left: 2px solid black;
-    border-top: 2px solid black;
 }

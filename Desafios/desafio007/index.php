@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="d007.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
 
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="sal">Salário: </label>
-            <input type="number" name="salario" id="sal" value="<?=$salario?>">
+            <input type="number" name="salario" id="sal" value="<?=$salario?>" step="0.01">
 
             <input type="submit" value="Calcular">
         </form>
