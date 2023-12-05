@@ -12,7 +12,7 @@
 
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="sal">Salário: </label>
-            <input type="number" name="salario" id="sal" value="<?=$salario?>" step="0.01">
+            <input type="number" name="salario" id="sal" value="<?=$minimo?>" step="0.01">
 
             <input type="submit" value="Calcular">
         </form>
