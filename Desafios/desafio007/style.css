@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, blue, rgb(0, 0, 143));
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+input {
+    padding: 7px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(59, 59, 59);
+}
+
+label{
+    background-color: #d824d883;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+section#resultado {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+div.container {
+    display: flex;
+}
+
+div.d {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.d1 {
+    border-right: 1px solid black;
+}
+
+.d2 {
+    border-right: 1px solid black;
+    text-decoration: underline;
+}
+
+.d3 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.d4 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.td1 {
+    border-right: 2px solid black;
+}
+
+.td2 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.td3 {
+    border-right: 2px solid black;
+    text-decoration: underline;
+}
+
+.td4 {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
