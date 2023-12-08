@@ -8,6 +8,10 @@
 </head>
 <body>
     <main>
+        <?php 
+            $salario = $_GET["salario"] ?? 0;
+            $minimo = 1380;
+        ?>
         <h2>Calcular salário</h2>
 
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
@@ -20,8 +24,6 @@
     <section id="resultado">
         <h2>Resultado: </h2>
         <?php 
-            $salario = $_GET["salario"] ?? 0;
-            $minimo = 1380;
             $quociente = intdiv($salario, $minimo);
             $resto = $salario % $minimo;
 

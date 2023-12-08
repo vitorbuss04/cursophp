@@ -8,6 +8,9 @@
 </head>
 <body>
     <main>
+        <?php 
+            $numero = $_GET["numero"] ?? 1;
+        ?>
         <h2>Raízes</h2>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="num">Digite um número: </label>
@@ -18,14 +21,13 @@
     <section>
         <h2>Resultado</h2>
         <?php 
-            $numero = $_GET["numero"] ?? 0;
             $raiz2 = sqrt($numero);
             $raiz3 = $numero ** (1/3);
         ?>
 
         <ul>
-            <li><?="A raiz quadrada é: $raiz2"?></li>
-            <li><?="A raiz cúbica é: $raiz3"?></li>
+            <li><?="A raiz quadrada é: " . number_format($raiz2, 2, ",", ".")?></li>
+            <li><?="A raiz cúbica é: " . number_format($raiz3, 2, ",", ".")?></li>
         </ul>
     </section>
 </body>

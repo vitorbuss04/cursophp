@@ -17,6 +17,7 @@ main {
     width: 50%;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,19 +46,28 @@ label{
 
 section {
     background-color: white;
-    border-radius: 15px;
-    padding: 10px;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    margin-top: 15px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 40vw;
+    margin: auto;
+
+    min-width: 40vw;
+    max-width: 60vw;
+    border-radius: 15px;
+    
+
 }
 
 p {
     font-size: 0.9em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
 }
